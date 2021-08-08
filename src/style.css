@@ -1,0 +1,15 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+.card {
+  background-color: #e3e3e3;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 0.5em;
+}
