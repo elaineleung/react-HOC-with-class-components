@@ -3,7 +3,6 @@ import User from './User';
 import { WithAllUsers } from './WithAllUsers';
 
 function Users(props) {
-  console.log(props);
   return (
     <div>
       <h1>Record of Users</h1>

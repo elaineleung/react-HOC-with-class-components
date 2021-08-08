@@ -1,3 +1,3 @@
-# react-sfqwz3
+# React higher-order component with class components
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-sfqwz3)
+This is an example of using a higher-order component with a class component in React, based on [Better Coding Academy's video on higher-order components](https://youtu.be/JZcKgeulFM0) 
