@@ -4,12 +4,24 @@ p {
 }
 
 .container {
-  padding: 0 10vw;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  grid-gap: 1.5em;
 }
 
 .card {
   background-color: #e3e3e3;
   padding: 1em;
-  margin: 1em 0;
   border-radius: 0.5em;
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding: 2em 15vw;
+  }
 }
