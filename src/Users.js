@@ -4,7 +4,7 @@ import { WithAllUsers } from './WithAllUsers';
 
 function Users(props) {
   return (
-    <div>
+    <div className="users">
       <h1>Record of Users</h1>
       <div className="card-grid">
         {props.users.map(user => (
