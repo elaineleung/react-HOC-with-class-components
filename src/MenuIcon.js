@@ -6,7 +6,7 @@ class MenuIcon extends React.Component {
   };
 
   handleToggle = () => {
-    this.setState(prevState => ({ isActive: !this.state.isActive }));
+    this.setState(prevState => ({ isActive: !prevState.isActive }));
     document.body.classList.toggle('nav-open');
   };
   render() {

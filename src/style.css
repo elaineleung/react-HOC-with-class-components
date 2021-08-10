@@ -19,7 +19,7 @@ body {
 
 .nav {
   padding: 2em;
-  background: #d3a2eb;
+  background: #c2a2eb;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -107,7 +107,7 @@ body {
 
 .users {
   margin: 0 auto;
-  padding: 1em 1.5em;
+  padding: 1.5em;
 }
 
 .card-grid {
@@ -122,7 +122,7 @@ body {
   border-radius: 0.5em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .nav-toggle {
     display: none;
   }
@@ -147,6 +147,6 @@ body {
   .users {
     width: 100%;
     grid-area: bodyarea;
-    padding: 1em 3vw;
+    padding: 1em 5vw;
   }
 }
